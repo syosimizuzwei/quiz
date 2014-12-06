@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ResultViewController.h"
 //何問出題するかの設定
-#define COUNT 2
+#define COUNT 6
 @interface ViewController ()
 
 @end
@@ -33,9 +33,16 @@
     //[quizListArray addObject:[NSArray arrayWithObjects:@"2LifeisTech!は何をしている会社ですか？", @"まっすー帝国", @"みっちー帝国",@"IT教育",@"3",nil] ];の形で問題を書く
     //例↓
     [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法の前に日本にあった憲法派なんでしょう？", @"前日本国憲法", @"大帝国憲法",@"大日本帝国憲法",@"3",nil] ];
-    [quizListArray addObject:[NSArray arrayWithObjects:@"日本憲法？", @"どちらでもない", @"はい",@"いいえ",@"2",nil] ];
-    [quizListArray addObject:[NSArray arrayWithObjects:@"？", @"とびすけ", @"ぬるぽ",@"まっすー",@"1",nil] ];
-    [quizListArray addObject:[NSArray arrayWithObjects:@"LifeisTech!のアイドルは誰でしょう？", @"とびすけ", @"ぬるぽ",@"まっすー",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本憲法？", @"どちらでもない", @"はい",@"いいえ",@"3",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法の施行日はいつ？", @"5月3日", @"4月10日",@"9月23日",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法9条は何についてかかれている？", @"", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+    [quizListArray addObject:[NSArray arrayWithObjects:@"日本国憲法は全何条？", @"103条", @"85条",@"132条",@"1",nil] ];
+
     
     //--------------ここから上にクイズの問題を書いてみよう！--------------//
     //最初の問題を設定
